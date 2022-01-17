@@ -1,0 +1,33 @@
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: #ffc1ab;
+  border: solid #ffc1ab;
+  border-width: 1px 1px 0 1px;
+}
+
+/*테이블*/
+th,
+td {
+  border: 1px solid #bcbcbc;
+  width: 15%;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+th {
+  border: 1px solid #ffc1ab;
+  background-color: #ffc1ab;
+  text-align: center;
+}
